@@ -8,7 +8,10 @@
 
 import Foundation
 
+protocol MoviesVMProtocol {
+    
+}
 
-class MoviesViewModel {
+class MoviesViewModel: MoviesVMProtocol {
     
 }
