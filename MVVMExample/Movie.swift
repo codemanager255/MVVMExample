@@ -10,5 +10,7 @@ import Foundation
 
 
 struct Movie {
-    
+    let name:String
+    let thumImage:String
+    let description:String
 }
