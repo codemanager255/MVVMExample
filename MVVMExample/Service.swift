@@ -9,6 +9,11 @@
 import Foundation
 
 
-class Servcie {
-    
+protocol ServiceProtocol {
+    func getMovies()
+}
+class Servcie:ServiceProtocol {
+    func getMovies() {
+        
+    }
 }
