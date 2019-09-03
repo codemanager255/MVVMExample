@@ -14,6 +14,7 @@
 		04254BEF231E75AE00A1EDF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04254BEE231E75AE00A1EDF4 /* Assets.xcassets */; };
 		04254BF2231E75AE00A1EDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04254BF0231E75AE00A1EDF4 /* LaunchScreen.storyboard */; };
 		04254BFD231E75AE00A1EDF4 /* MVVMExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04254BFC231E75AE00A1EDF4 /* MVVMExampleTests.swift */; };
+		04254C08231E7A9D00A1EDF4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04254C07231E7A9D00A1EDF4 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		04254BF8231E75AE00A1EDF4 /* MVVMExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04254BFC231E75AE00A1EDF4 /* MVVMExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleTests.swift; sourceTree = "<group>"; };
 		04254BFE231E75AE00A1EDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04254C07231E7A9D00A1EDF4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				04254BF0231E75AE00A1EDF4 /* LaunchScreen.storyboard */,
 				04254BF3231E75AE00A1EDF4 /* Info.plist */,
 				04254BEB231E75AC00A1EDF4 /* MVVMExample.xcdatamodeld */,
+				04254C07231E7A9D00A1EDF4 /* Service.swift */,
 			);
 			path = MVVMExample;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04254BE7231E75AC00A1EDF4 /* ViewController.swift in Sources */,
+				04254C08231E7A9D00A1EDF4 /* Service.swift in Sources */,
 				04254BE5231E75AC00A1EDF4 /* AppDelegate.swift in Sources */,
 				04254BED231E75AC00A1EDF4 /* MVVMExample.xcdatamodeld in Sources */,
 			);
